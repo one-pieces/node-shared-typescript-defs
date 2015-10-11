@@ -1,6 +1,6 @@
 /// <reference path="../angularjs/angular.d.ts" />
 
-declare module ng.restmod {
+declare module angular.restmod {
   export interface IModel<T> {
     $promise: ng.IPromise<T>;
     $pending: any[];
